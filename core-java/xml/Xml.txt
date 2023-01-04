@@ -1,0 +1,26 @@
+XML:
+    Xml (eXtensible Markup Language) is a mark up language
+    XML is designed to store and transport data
+    XML tags are not predefined. You must define your own tags
+    XML is platform independent and language independent
+    Features
+        XML separates data from HTML
+        XML simplifies data sharing
+        XML simplifies data transport
+        XML simplifies Platform change
+        XML increases data availability
+        XML can be used to create new internet languages
+    Syntax
+        <root>
+          <child>
+            <subchild>.....</subchild>
+          </child>
+        </root>
+    Example
+        <?xml version="1.0" encoding="ISO-8859-1"?>
+        <note>
+          <to>Tove</to>
+          <from>Jani</from>
+          <heading>Reminder</heading>
+          <body>Don't forget me this weekend!</body>
+        </note>

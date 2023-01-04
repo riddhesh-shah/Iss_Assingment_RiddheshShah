@@ -1,0 +1,28 @@
+JSON:
+    JSON stands for JavaScript Object Notation
+    JSON objects are used for transferring data between server and client, XML serves the same purpose
+    Syntax Rules
+        Data is specified as name and value pairs. There is colon “:” symbol between name and corresponding value, notice the “firstName” : “Chaitanya” pair in the following example.
+        Multiple data items are separated by commas, notice the firstName, lastName and age are separated by commas.
+        Curly braces are used to hold objects.
+        Square brackets are used to hold arrays.
+    Features of JSON:
+        It is light-weight
+        It is language independent
+        Easy to read and write
+        Text based, human readable data exchange format
+    Why use JSON?
+        Standard Structure
+        Light weight
+        Scalable
+    Data types
+        string      -   {"firstName":"Chaitanya"}
+        number      -   {"age":35}
+        JSON object -   {
+                        "student":{"firstName":"Ajeet", "age":32, "country":"India"}
+                        }
+        array       -   {
+                        "students":["Ram", "Steve", "John", "Peter"]
+                        }
+        boolean     -   {"isValid":true}
+        null
